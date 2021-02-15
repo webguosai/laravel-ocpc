@@ -14,7 +14,7 @@
 
 - php >= 7.0
 - composer
-- laravel7.30
+- laravel >= 7.30
 
 ## 安装
 

@@ -1,6 +1,6 @@
 {
     "name": "webguosai/laravel-ocpc",
-    "description": "À©Õ¹°üÃèÊö",
+    "description": "æ‰©å±•åŒ…æè¿°",
     "keywords": ["ocpc"],
     "authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.0"
     },
     "autoload": {
         "psr-4": {
