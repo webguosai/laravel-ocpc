@@ -2,6 +2,10 @@
     "name": "webguosai/laravel-ocpc",
     "description": "扩展包描述",
     "keywords": ["ocpc"],
+    "support": {
+        "issues": "https://github.com/webguosai/laravel-ocpc/issues",
+        "source": "https://github.com/webguosai/laravel-ocpc"
+    },
     "authors": [
         {
             "name": "webguosai",
@@ -14,6 +18,16 @@
     "autoload": {
         "psr-4": {
             "Webguosai\\LaravelOcpc\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webguosai\\LaravelOcpc\\OcpcServiceProvider"
+            ],
+            "aliases": {
+                "Ocpc": "Webguosai\\LaravelOcpc\\Facades\\Ocpc"
+            }
         }
     },
     "license": "MIT"
