@@ -38,12 +38,17 @@ Webguosai\LaravelOcpc\OcpcServiceProvider::class,
 ### 配置文件
 
 ```Shell
-$ php artisan vendor:publish --provider="Webguosai\LaravelOcpc\OcpcServiceProvider
+$ php artisan vendor:publish --provider="Webguosai\LaravelOcpc\OcpcServiceProvider"
 ```
 
 
 ## 使用方法
+```php
+use Ocpc;
 
+$a = Ocpc::test('guosaibaba');
+return view('Ocpc::ocpc',['msg' => $a]);
+```
 
 ## License
 
